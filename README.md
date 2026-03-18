@@ -6,6 +6,6 @@ Repository ini berisi implementasi tugas **Natural Language Processing (NLP)** y
 
 - **Arya Muda Siregar** (123450063) — *@username*  
 - **Arielva Simon Siahaan** (123450105) — *@username*  
-- **Haikal Fransisko Simbolon** (123450106) — *@username*  
+- **Haikal Fransisko Simbolon** (123450106) — *@Haikal-Fransisko-Simbolon*  
 
 ---
