@@ -59,3 +59,37 @@ Tujuan utama dari proyek ini adalah:
 - Membandingkan performa Machine Learning dan Deep Learning dalam klasifikasi emosi
 - Mengidentifikasi model terbaik untuk menangani klasifikasi emosi dengan banyak kelas
 - Memberikan insight terhadap efektivitas masing-masing pendekatan dalam memahami teks
+
+## 📈 Hasil Evaluasi Model (Machine Learning)
+
+Berdasarkan hasil benchmarking terhadap tiga algoritma Machine Learning, model terbaik yang diperoleh adalah:
+
+🏆 **Support Vector Machine (LinearSVC)**  
+- **Accuracy:** 0.8811  
+- **Precision:** 0.8810  
+- **Recall:** 0.8811  
+- **F1-Score:** 0.8808  
+
+Perbandingan dengan model lain:
+- Logistic Regression → F1-Score: 0.8656  
+- Naive Bayes → F1-Score: 0.8381  
+
+### 📊 Insight Performa
+- Model SVM menunjukkan performa paling stabil di hampir semua kelas emosi.
+- Kategori dengan performa tinggi:
+  - **happiness** (F1 ≈ 0.97)
+  - **excitement** (F1 ≈ 0.96)
+  - **love, guilt, jealousy** (F1 > 0.93)
+- Kategori yang lebih sulit diprediksi:
+  - **frustration** (F1 ≈ 0.64)
+  - **sadness** (F1 ≈ 0.74)
+  - **anger & anxiety** (F1 ≈ 0.75)
+
+Hal ini menunjukkan bahwa emosi dengan nuansa negatif yang mirip cenderung lebih sulit dibedakan oleh model.
+
+---
+
+## 🧠 Kesimpulan Sementara (ML)
+Model **LinearSVC** dipilih sebagai model terbaik karena memberikan keseimbangan optimal antara akurasi dan generalisasi pada dataset multi-class dengan 20 kategori emosi.
+
+Model ini kemudian digunakan untuk deployment pada Hugging Face Spaces sebagai baseline sebelum dibandingkan dengan pendekatan Deep Learning.
