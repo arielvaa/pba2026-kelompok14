@@ -1,5 +1,10 @@
 # 🧠 Fine-Grained Emotion Classification (20 Classes)
 
+## 🚀 Live Demo
+**Try the deployed model:** [Emotion Classification App on Hugging Face Spaces](https://huggingface.co/spaces/Aryamudas/pba2026-kelompok14)
+
+---
+
 ## 📌 Deskripsi Proyek
 Proyek ini bertujuan membangun sistem klasifikasi teks yang mampu mengidentifikasi emosi dalam kalimat berbahasa Inggris secara lebih detail. Dataset yang digunakan mencakup 20 kategori emosi, sehingga model tidak hanya membedakan sentimen positif dan negatif, tetapi juga mengenali emosi spesifik seperti marah, sedih, cemas, dan lainnya.
 
@@ -33,12 +38,12 @@ Contoh label emosi:
 ## ⚙️ Metodologi
 
 ### 1. Machine Learning (ML)
-Pendekatan ML akan menggunakan framework PyCaret dengan representasi fitur berbasis TF-IDF. Beberapa algoritma yang akan dibandingkan antara lain:
-- Logistic Regression
-- Support Vector Machine (SVM)
-- Random Forest
+Pendekatan ML menggunakan scikit-learn dengan representasi fitur berbasis TF-IDF. Model yang telah dibenchmark:
+- **Logistic Regression** - Baseline model
+- **Naive Bayes (MultinomialNB)** - Specialized for text classification
+- **Support Vector Machine (LinearSVC)** -  Best model (selected)
 
-Model terbaik akan dipilih berdasarkan performa evaluasi.
+Model terbaik telah dipilih berdasarkan F1-Score dan di-deploy ke Hugging Face Spaces.
 
 ### 2. Deep Learning (DL)
 Pendekatan DL akan menggunakan PyTorch dengan arsitektur seperti:
@@ -54,5 +59,3 @@ Tujuan utama dari proyek ini adalah:
 - Membandingkan performa Machine Learning dan Deep Learning dalam klasifikasi emosi
 - Mengidentifikasi model terbaik untuk menangani klasifikasi emosi dengan banyak kelas
 - Memberikan insight terhadap efektivitas masing-masing pendekatan dalam memahami teks
-
----

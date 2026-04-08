@@ -57,3 +57,4 @@ python app.py
 ## Dataset
 
 Trained on the [Emotion Dataset (20 Emotions)](https://huggingface.co/datasets/shreyaspulle98/emotion-dataset-20-emotions) from Hugging Face.
+
