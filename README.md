@@ -1,7 +1,7 @@
 # 🧠 Fine-Grained Emotion Classification (20 Classes)
 
 ## 🚀 Live Demo
-**Try the deployed model:** [Emotion Classification App on Hugging Face Spaces](https://huggingface.co/spaces/Aryamudas/pba2026-kelompok14)
+**Try the deployed model:** [Emotion Classification App on Hugging Face Spaces](https://huggingface.co/spaces/Arielva/pba2026-kelompok14)
 
 ---
 
